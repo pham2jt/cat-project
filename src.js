@@ -1,6 +1,6 @@
-var albumBucketName = "BUCKET_NAME";
-var bucketRegion = "REGION";
-var IdentityPoolId = "IDENTITY_POOL_ID";
+var albumBucketName = "cat-recogniztion-bucket";
+var bucketRegion = "Regions.US_EAST_1";
+var IdentityPoolId = "us-east-1:796d5369-cb84-48dc-88e8-290b5cfd48b1";
 
 AWS.config.update({
   region: bucketRegion,
